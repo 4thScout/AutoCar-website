@@ -9,8 +9,8 @@
   </head>
   <body>
     <header>
-      <h1>The AUTOCare</h1>
-      <nav float:right;>
+      <h1 class="header">The AUTOCare</h1>
+      <nav class="main-nav">
         <ul>
           <li><a href="#origin">Our Origin</a></li>
           <li><a href="#arrivals">New Arrivals</a></li>
@@ -20,7 +20,7 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section class="main-section">
         <h2 id="origin">What we stand for?</h2>
         <p>
           We mitigate risks and grasp opportunities to drive positive and
@@ -43,47 +43,55 @@
           to further expand, deepen and evolve our expertise.
         </p>
       </section>
-      <section id="dealer">
-        <button>Find a dealer</button>
-        <button>Book service</button>
-        <button>Have us call you!</button>
+      <section class="dealer">
+        <button class="dealer_list">Find a dealer</button>
+        <button class="dealer_list">Book service</button>
+        <button class="dealer_list">Have us call you!</button>
       </section>
-      <section>
+      <section class="row">
         <h2 id="arrivals">Latest Models</h2>
-        <div>
+        <div class="column">
           <img
-            src="../AutoCar-website/images/Silvernavara.jpeg"
+            src="images/nissannavara.jpeg"
             alt="Silver navara with lights on"
-            width="240"
+            width="100%"
           />
-          <p>Navara</p>
+          <figcaption>Navara</figcaption>
         </div>
-        <div>
+        <div class="column">
           <img
-            src="../AutoCar-website/images/terra.jpeg"
+            src="images/terra.jpeg"
             alt="Nissan Terra"
-            width="280"
+            width="100%"
           />
-          <p>Terra</p>
+          <figcaption>Terra</figcaption>
         </div>
-        <img src="../AutoCar-website/images/qashqai.jpeg" width="280" />
-        <p>QashQai</p>
+        <div class="column">
+        <img src="images/qashqai.jpeg" width="100%" />
+        <figcaption>QashQai</figcaption>
+        </div>
       </section>
       <section>
-        <h2>Latest News</h2>
+        <h2 class="main.news">Latest News</h2>
         <h4>HOW TO CHOOSE THE BEST CAR</h4>
-        <span
+        <p
           >When it comes to selecting the perfect pickup truck for your fleet or
           business, making the right choice can have a significant impact on
-          your operations, productivity, and overall success.</span
-        >
+          your operations, productivity, and overall success.</p>
+          <details>
+            <summary>Read more</summary><ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul></details>
         <h4>
           NISSAN LAUNCHES THE NEXT GENERATION QASHQAI IN SUB SAHARAN AFRICA
         </h4>
-        <span
+        <p
           >Nissan Qashqai pioneered the crossover segment, back in 2006 as the
           first of its kind, paving the way for others to follow by blending the
-          best of what a hatchback could offer, with SUV practicality.</span
+          best of what a hatchback could offer, with SUV practicality.</p
         >
       </section>
       <section>
