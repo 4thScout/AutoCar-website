@@ -29,6 +29,23 @@ p {
 div {
   box-sizing: border-box;
 }
+.main_paragraph1 {
+  background-color: #074f57;
+  background-image: url("../AutoCar-website/images/pexels-new.jpg");
+  background-size: cover;
+  background-blend-mode: lighten;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.main_paragraph2 {
+  background-color: #d8c4b6;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
 .auto_models {
   display: flex;
   flex-direction: row;
@@ -52,8 +69,8 @@ summary {
   margin: 10px;
   border-radius: 5px;
 }
-button {
-  width: 500px;
+.btn {
+  width: 400px;
   padding: 10px 20px;
   margin: 25px;
   border: 1px;
@@ -89,7 +106,6 @@ nav a:hover {
 
 nav a::before {
   content: "";
-  display: block;
   height: 5px;
   background-color: #4f709c;
   position: absolute;
@@ -104,6 +120,10 @@ button:hover {
   color: grey;
   font-weight: 600;
 }
+.services {
+  display: flex;
+  justify-content: center;
+}
 div {
   display: flex;
   flex-flow: column nowrap;
@@ -115,7 +135,7 @@ div {
 .container {
   display: flex;
   justify-content: center;
-  padding: 3px;
+  padding: 4px;
 }
 .minor_headings {
   margin: 0px;
@@ -129,7 +149,7 @@ div {
   margin-top: 0px;
 }
 
-.dealer_list:hover {
+.btn:hover {
   font-weight: 400;
 }
 .reach-us {
@@ -139,26 +159,33 @@ div {
   background-color: #4f709c;
   border-radius: 4px;
 }
-.Contact-us {
+.contact-us {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  background-color: #d8c4b6;
+  justify-content: space-between;
   border: 1px transparent;
-  width: 35%;
   border-radius: 5px;
+  width: 100%;
+}
+.contact-us__info,
+.contact-us__form {
+  background-color: #d8c4b6;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+.contact-us__info {
+  width: 25%;
+}
+.contact-us__form {
+  width: 73%;
 }
 .contacts {
-  display: inline-block;
   padding: 20px;
 }
 
-.container h2 {
+.container {
   background-color: #4f709c;
   width: 450px;
   margin: auto;
-}
-.icons {
 }
 .container_list {
   list-style: none;
@@ -168,4 +195,36 @@ div {
   color: #444;
   text-decoration: none;
   text-transform: uppercase;
+}
+.models {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-column1 {
+  justify-content: flex-start;
+}
+.form-input {
+  margin-top: 15px;
+}
+.input {
+  border: 1px transparent;
+  height: 20px;
+}
+.label {
+  padding-left: 10px;
+}
+.container_form {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4px;
+  background-color: #4f709c;
+}
+.submit_btn {
+  width: 150px;
+  border-radius: 4px;
+}
+.text_area {
+  width: 400px;
+  height: 270px;
 }
