@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <!-- Reset CSS  makes changes to my website -->
+    <!-- <link rel="stylesheet" href="reset.css" /> -->
+
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -131,32 +134,32 @@
             <h4>Call</h4>
             <p>Mob: +256 705551679</p>
             <p>Office: +256 392133700</p>
-            <div class="icons">
-              <ul class="container_list">
-                <li class="icon_links">
-                  <a href="#"
-                    ><i class="fa-brands fa-facebook"></i> The AUTOCare</a
-                  >
-                </li>
-                <li class="icon_links">
-                  <a href="#"
-                    ><i class="fa-brands fa-instagram"></i> Autocare_org</a
-                  >
-                </li>
-                <li class="icon_links">
-                  <a href="#"
-                    ><i class="fa-solid fa-envelope"></i> enquiry@auto.org</a
-                  >
-                </li>
-              </ul>
-            </div>
+          </div>
+          <div class="icons">
+            <ul class="container_list">
+              <li class="icon_links">
+                <a href="#"
+                  ><i class="fa-brands fa-facebook"></i> The AUTOCare</a
+                >
+              </li>
+              <li class="icon_links">
+                <a href="#"
+                  ><i class="fa-brands fa-instagram"></i> Autocare_org</a
+                >
+              </li>
+              <li class="icon_links">
+                <a href="#"
+                  ><i class="fa-solid fa-envelope"></i> enquiry@auto.org</a
+                >
+              </li>
+            </ul>
           </div>
         </section>
         <section class="contact-us__form">
-          <h2>Book a Service</h2>
-          <section class="container_form">
-            <section>
-              <form class="form-column1" action="">
+          <div class="booking_header"><h2>Book a Service</h2></div>
+          <div class="container-form">
+            <form class="form-column1" action="">
+              <div class="grid_1">
                 <div class="form-input">
                   <label class="label" for="first-name"
                     >First Name:
@@ -197,7 +200,7 @@
                   /></label>
                 </div>
                 <div class="form-input">
-                  <p>Agree to the terms and conditions:</p>
+                  <p class="label">Agree to the terms and conditions:</p>
                   <label class="label" for="accept"
                     >Agree:
                     <input
@@ -217,18 +220,27 @@
                       required
                   /></label>
                 </div>
-                <div>
+              </div>
+              <div class="grid_2">
+                <div class="form-input">
+                  <input
+                    class="text_area"
+                    placeholder="Message to the dealer"
+                  />
+                </div>
+              </div>
+              <div class="grid_3">
+                <div class="form-input">
                   <input class="submit_btn" type="submit" value="Submit" />
                 </div>
-              </form>
-            </section>
-            <section>
-              <textarea class="text_area" rows="15" columns="300"> </textarea>
-            </section>
-          </section>
+              </div>
+            </form>
+          </div>
         </section>
       </section>
     </main>
-    <footer><a href="">All Rights reserved @2023</a></footer>
+    <div>
+      <footer><a href="">All Rights reserved @2023</a></footer>
+    </div>
   </body>
 </html>
