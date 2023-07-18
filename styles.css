@@ -1,6 +1,5 @@
 h1,
-h2,
-footer {
+h2,footer {
   font-family: "Dela Gothic", cursive;
   text-align: center;
   vertical-align: middle;
@@ -171,7 +170,7 @@ button:hover {
 }
 .contact-us__info {
   width: 25%;
-  height: 500px;
+  height: 425px;
 }
 .contact-us__form {
   height: 300px;
@@ -189,13 +188,12 @@ button:hover {
 .container_list {
   list-style: none;
 }
-.icons {
-  margin: 20px;
+.svg-icons {
+  margin-top: 10px;
 }
-.icons_links {
+.icon-links {
   color: #444;
   text-decoration: none;
-  text-transform: uppercase;
 }
 .models {
   display: flex;
@@ -224,7 +222,7 @@ button:hover {
 }
 .container-form {
   display: grid;
-  height: 400px;
+  height: 350px;
   grid-template-areas:
     "head aside"
     "foot foot";
